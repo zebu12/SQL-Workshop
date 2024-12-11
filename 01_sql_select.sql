@@ -65,7 +65,7 @@ SELECT * FROM city WHERE Name like "%orto%";
 
 -- 11: Get the cities with a population of below 200 or above 9500000 (9.5 million)
 
-    SELECT * FROM city WHERE (Population < 200) or (Population >9500000);
+    SELECT * FROM city WHERE Population < 200 or Population >9500000;
 
 -- 12: Get the cities with the countrycodes TJK, MRT, AND, PNG, SJM
 
